@@ -1,0 +1,61 @@
+{
+  "projectStatus": {
+    "status": "OK",
+    "conditions": [
+      {
+        "metricKey": "new_security_rating",
+        "metricName": "Security Rating on New Code",
+        "evaluationStatus": "OK",
+        "actualValue": "1.0",
+        "errorThreshold": "1.0",
+        "comparator": "GREATER_THAN"
+      },
+      {
+        "metricKey": "new_reliability_rating",
+        "metricName": "Reliability Rating on New Code",
+        "evaluationStatus": "OK",
+        "actualValue": "1.0",
+        "errorThreshold": "1.0",
+        "comparator": "GREATER_THAN"
+      },
+      {
+        "metricKey": "new_maintainability_rating",
+        "metricName": "Maintainability Rating on New Code",
+        "evaluationStatus": "OK",
+        "actualValue": "1.0",
+        "errorThreshold": "1.0",
+        "comparator": "GREATER_THAN"
+      },
+      {
+        "metricKey": "new_coverage",
+        "metricName": "Coverage on New Code",
+        "evaluationStatus": "OK",
+        "actualValue": "94.2",
+        "errorThreshold": "80.0",
+        "comparator": "LESS_THAN"
+      },
+      {
+        "metricKey": "new_duplicated_lines_density",
+        "metricName": "Duplicated Lines Density on New Code",
+        "evaluationStatus": "OK",
+        "actualValue": "0.0",
+        "errorThreshold": "3.0",
+        "comparator": "GREATER_THAN"
+      }
+    ],
+    "periods": [],
+    "ignoredConditions": false
+  },
+  "metrics": {
+    "bugs": 0,
+    "vulnerabilities": 0,
+    "security_hotspots": 0,
+    "code_smells": 2,
+    "coverage": 94.2,
+    "duplicated_lines_density": 0.0,
+    "ncloc": 348,
+    "sqale_rating": "A",
+    "reliability_rating": "A",
+    "security_rating": "A"
+  }
+}
